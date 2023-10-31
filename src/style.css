@@ -8,7 +8,7 @@ h1 {
   margin-top: 10px;
 }
 h2 {
-  display: block;
+  display: inline-block;
   text-align: center;
   font-size: 4em;
   font-family: Arial, Helvetica, sans-serif;
@@ -16,7 +16,12 @@ h2 {
   letter-spacing: -4px;
   padding-top: 40px;
 }
-
+h2 img {
+  display: inline-block;
+}
+.temperature_today {
+  display: inline-block;
+}
 h3 {
   display: block;
   text-align: center;
