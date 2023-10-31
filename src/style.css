@@ -1,0 +1,166 @@
+body {
+  font-family: "Bree Serif", serif;
+}
+
+h1 {
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+}
+h2 {
+  display: block;
+  text-align: center;
+  font-size: 4em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  letter-spacing: -4px;
+  padding-top: 40px;
+}
+
+h3 {
+  display: block;
+  text-align: center;
+}
+
+#picture-top img {
+  display: inline-flex;
+  max-width: 50%;
+  height: auto;
+}
+
+.searching {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.search_field {
+  display: block;
+  margin: 0 auto;
+  width: 400px;
+  height: 50px;
+  outline: none;
+  border: 1px solid #cc7ac1;
+  border-radius: 20px;
+  box-sizing: border-box;
+  box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+button.submit_button {
+  background-color: #ffb5b5;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.submit_button:hover {
+  background-color: #f76b8a;
+}
+
+#data-top ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+
+.weather_today .row {
+  display: flex;
+  margin-bottom: 10px;
+  border: 1px solid #cc7ac1;
+  border-radius: 20px;
+  box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.3);
+  background: linear-gradient(
+    109.6deg,
+    rgb(255, 221, 225) 11.2%,
+    rgb(255, 255, 255) 92.2%
+  );
+}
+#weather_in_time ul {
+  list-style: none;
+  text-align: left;
+  padding-left: 0;
+  padding: 10px;
+  margin: 0 auto;
+}
+#weather_in_time li {
+  display: inline-block;
+  margin: 5px;
+  width: 100px;
+}
+#weather_in_time p {
+  text-align: center;
+  margin: 0;
+  padding-top: 10px;
+  font-size: 1.2em;
+}
+.temperatura_day {
+  font-size: 1.2em;
+  margin: 0 auto;
+}
+
+.weather_week .row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 10px;
+}
+#week_column {
+  display: block;
+  align-items: center;
+  text-align: center;
+  border: 1px solid #cc7ac1;
+  border-radius: 20px;
+  box-sizing: border-box;
+  box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.3);
+  background: linear-gradient(
+    0deg,
+    rgb(247, 247, 247) 23.8%,
+    rgb(252, 221, 221) 92%
+  );
+  cursor: pointer;
+  transition: all 200ms ease;
+}
+#week_column img {
+  display: block;
+  max-width: 100px;
+  margin: 10px;
+}
+#week_column p {
+  margin: 0px;
+  margin-bottom: 10px;
+}
+#week_column:hover {
+  background: #ffdcf5;
+  color: #1a64d6;
+  border: 1px solid #1a64d6;
+}
+.week_day {
+  display: block;
+  font-size: 1.2em;
+}
+#weather_in_time {
+  display: block;
+  margin-top: 10px;
+  border: 1px solid #cc7ac1;
+  border-radius: 20px;
+  box-sizing: border-box;
+  box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.3);
+  background: linear-gradient(
+    109.6deg,
+    rgb(255, 221, 225) 11.2%,
+    rgb(255, 255, 255) 92.2%
+  );
+}
+.weather_01 .row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 10px;
+}
+.footer {
+  display: block;
+  text-align: center;
+  margin: 20px;
+}
